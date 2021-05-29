@@ -1,4 +1,4 @@
-import 'package:units_converter/Property.dart';
+import 'package:jro_units_converter/Property.dart';
 import 'UtilsConversion.dart';
 import 'Unit.dart';
 

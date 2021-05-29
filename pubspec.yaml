@@ -1,7 +1,7 @@
-name: units_converter
+name: jro_units_converter
 description: Simple and light units conversion package for all your needs.
 version: 0.3.0+1
-homepage: https://github.com/ferraridamiano/units_converter
+homepage: https://github.com/copypasteearth/units_converter
 
 environment:
   sdk: '>=2.12.0 <3.0.0'

@@ -4,6 +4,7 @@ import 'Unit.dart';
 
 //Available VOLUME units
 enum VOLUME {
+  cubic_yards,
   cubic_meters,
   liters,
   imperial_gallons,
@@ -27,6 +28,7 @@ enum VOLUME {
 class Volume extends Property<VOLUME, double> {
   //Map between units and its symbol
   final Map<VOLUME, String> mapSymbols = {
+    VOLUME.cubic_yards: 'yd³',
     VOLUME.cubic_meters: 'm³',
     VOLUME.liters: 'l',
     VOLUME.imperial_gallons: 'imp gal',
@@ -67,6 +69,10 @@ class Volume extends Property<VOLUME, double> {
           Node(
             coefficientProduct: 4.54609,
             name: VOLUME.imperial_gallons,
+          ),
+          Node(
+            coefficientProduct: 764.554858,
+            name: VOLUME.cubic_yards,
           ),
           Node(
             coefficientProduct: 3.785411784,

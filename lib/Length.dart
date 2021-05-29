@@ -141,4 +141,7 @@ class Length extends Property<LENGTH, double> {
   Unit get light_years => getUnit(LENGTH.light_years);
   Unit get parsec => getUnit(LENGTH.parsec);
   Unit get mils => getUnit(LENGTH.mils);
+  Unit getSpecific(var unit){
+    return getUnit(unit);
+  }
 }

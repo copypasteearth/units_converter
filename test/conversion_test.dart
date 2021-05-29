@@ -1,5 +1,5 @@
 import 'package:test/test.dart';
-import 'package:units_converter/units_converter.dart';
+import 'package:jro_units_converter/units_converter.dart';
 
 /// This function defines if a value is accettable. e.g. if we expect to have 1 but we get 1.00000000012, is this a valid result or not?
 /// The term sensbility is used improperly.
